@@ -1,0 +1,117 @@
+<div class = 'pico'>
+    <div class = 'picoimg'><img src="oeuftest.gif" /></div>
+    <div class = 'picotext'>Projet Pico 8. Création d'un jeu sur pico-8 en groupe.</div>
+</div>
+<div class = 'visu'>
+    <div class = 'visuimg'><img src="visu.png" /></div>
+    <div class = 'visutext'>Projet Visualisation. Ce projet est un projet, je ne sais how to describe this, but let's test this.</div>
+</div>
+<div class = 'chatbot'>
+    <div class = 'chatbotimg'><img src="chatbot.png" /></div>
+    <div class = 'chatbottext'> Projet Chatbot cuisine. Pouvoir faire un chatbot qui sort la recette basé sur les ingrédients que l'utilisateur rentre.</div>
+</div>
+
+.pico {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    margin-left: 250px;
+    margin-right: 200px;
+    border: 3px solid red;
+
+}
+.picoimg {
+    border: 3px solid blue;
+}
+.picotext {
+    color:white;
+    display: flex;
+    flex-wrap: wrap;
+    border: 3px solid green;
+}
+.visu {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    margin-left: 250px;
+    margin-right: 200px;
+    border: 3px solid red;
+
+}
+.visu img {
+    max-width: 40%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.visutext {
+    color:white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    border: 3px solid green;
+}
+
+.chatbot {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    margin-left: 250px;
+    margin-right: 200px;
+    border: 3px solid red;
+}
+.chatbot img {
+    max-width: 50%;
+    height: auto;
+}
+
+.chatbottext {
+    color:white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:left;
+    border: 3px solid green;
+}
+
+<div class="container">
+    <div class="row">
+        <div class = '.col-md-4'><img src="oeuftest.gif"class="img-thumbnail" /></div>
+        <div class = '.col-md-8'>Projet Pico 8. Création d'un jeu sur pico-8 en groupe.</div>
+    </div>
+    <div class="row">
+        <div class = '.col-md-4'><img src="visu.png" class="img-thumbnail"/ ></div>
+        <div class = '.col-md-8'>Projet Visualisation. Ce projet est un projet, je ne sais how to describe this, but let's test this.</div>
+    </div>
+    <div class = 'row'>
+        <div class = '.col-md-4'><img src="chatbot.png" class="img-thumbnail" /></div>
+        <div class = '.col-md-8'> Projet Chatbot cuisine. Pouvoir faire un chatbot qui sort la recette basé sur les ingrédients que l'utilisateur rentre.</div>
+    </div>
+  </div>
+
+  .container {
+    border: 3px solid red;
+    margin-left: 250px;
+    margin-right: 500px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 60px;
+    margin-left: 250px;
+    margin-right: 200px;
+
+}
+.col-md-4 {
+    width: 20vw; 
+    height: 20vh;
+    
+}
+.col-md-8 {
+}
